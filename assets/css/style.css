@@ -45,7 +45,8 @@ body {
 
 .principal {
    grid-area: principal;
-   /* height: calc(100vh - 180px);  para deixar altura fixa*/
+   height: calc(100vh - 180px);  
+   /* //para deixar altura fixa */
    /* usar 100%, menos a soma do tamanho do grid template rows */
    background-color: #f0f0f0;
    padding: 20px;
@@ -54,7 +55,7 @@ body {
 .conteudo {
     position: relative;
     height: 100%;
-    /* overflow-y: scroll; */
+    overflow-y: scroll;
     /* o overflow define que caso o conteudo for maior, ele criará uma tela de rolagem específica nele */
     background-color: #fff;
     padding: 20px;
