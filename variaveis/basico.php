@@ -29,3 +29,6 @@ echo '<br>' . $variavel;
 
 $variavel = "Agora sou uma string";
 echo '<br>' . $variavel;
+
+
+
