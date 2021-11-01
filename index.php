@@ -32,6 +32,11 @@
                                 Operações
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=desafio_sorteio">
+                                Sorteio
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo roxo">
