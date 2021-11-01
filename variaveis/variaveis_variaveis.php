@@ -2,8 +2,11 @@
 
 <?php
 $a = 'valorA';
-$valorA = 'valorAA';
-echo "$a";
-echo "<br> $valorA";
-echo "<br> $$a";
-echo "<br> ${$a}";
+$$a = 'valorAA';
+echo "$a {$$a} ${$a} $valorA";
+
+echo '<br>';
+$epa = 'opa';
+$opa = 'vish';
+$vish = 'eita!!!!';
+echo "$epa {$$epa} {$$$epa}";

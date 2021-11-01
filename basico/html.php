@@ -1,16 +1,15 @@
 <div class="titulo">Integração HTML</div>
 
 <h1>
-<?php
+<?php 
 echo 'Olá';
 echo '<small>';
-echo ' HTML';
+echo ' Mundo!';
 echo '</small>';
 ?>
 </h1>
 
-<?= "<div>Outra forma de me 'expressar'</div>";?>
-<!-- Imprime apenas uma sequencia. Não imprime nada além do ; -->
+<?= "<div>Outra forma de me 'expressar'!</div>" ?>
 
 <br>
-<div><button><?= "Legal"?></button></div>
+<div><button><?= "Legal" ?></button></div>

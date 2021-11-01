@@ -2,14 +2,17 @@
 
 <?php
 $variavel = 'valor inicial';
+echo $variavel;
+
+// Atribuição por Valor
 $variavelValor = $variavel;
-echo "<br> $variavel $variavelValor";
+echo "<br>$variavelValor";
+$variavelValor = 'novo valor';
+echo "<br>$variavel";
+echo " $variavelValor";
 
-$variavelValor = 'valor alterado';
-echo "<br> $variavel $variavelValor";
-
+// Atribuição por Referência
 $variavelReferencia = &$variavel;
-echo "<br> $variavel $variavelReferencia";
+$variavelReferencia = 'mesma referencia';
 
-$variavelReferencia = 'valor alterado';
-echo "<br> $variavel $variavelReferencia";
+echo "<br>$variavel $variavelReferencia";

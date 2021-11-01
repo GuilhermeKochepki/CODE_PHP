@@ -7,41 +7,39 @@ $numero = 10;
 echo '<br>' . $numero;
 $numero = $numero - 3;
 echo '<br>' . $numero;
-
 $numero = $numero + 1.5;
 echo '<br>' . $numero;
-$numero++;
+$numero--; // $numero = $numero - 1;
+--$numero; // $numero = $numero - 1;
 echo '<br>' . $numero;
-++$numero;
+$numero++; // $numero = $numero + 1;
+++$numero; // $numero = $numero + 1;
 echo '<br>' . $numero;
-$numero--;
-echo '<br>' . $numero;
---$numero;
+$numero = 20;
 echo '<br>' . $numero;
 $numero -= 5;
 echo '<br>' . $numero;
-$numero += 10;
+$numero += 5;
 echo '<br>' . $numero;
-$numero *= 1.2;
+$numero *= 10;
 echo '<br>' . $numero;
-$numero %= 9;
+$numero /= 2;
 echo '<br>' . $numero;
-$numero **= 2;
+$numero %= 6;
+echo '<br>' . $numero;
+$numero **= 4;
+echo '<br>' . $numero;
+$numero .= 4; // apenas concatenação!
 echo '<br>' . $numero;
 
 $texto = 'Esse é um texto';
 echo '<br>' . $texto;
 $texto = $texto . ' qualquer';
 echo '<br>' . $texto;
-$texto .= ' de verdade';
+$texto .= ' de verdade!';
 echo '<br>' . $texto;
 
-//$variavelInexistente = 'valor existente';
+// $variavelInexistente = 'valor existente';
 echo '<br>' . $variavelInexistente;
 $valor = $variavelInexistente ?? 'valor default';
 echo '<br>' . $valor;
-
-
-
-
-
