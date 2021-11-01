@@ -22,11 +22,14 @@
                                 Básico
                             </a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="exercicio.php?dir=array&file=mapa">
                                 Mapa
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=operacoes">
+                                Operações
                             </a>
                         </li>
                     </ul>
