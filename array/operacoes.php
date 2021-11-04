@@ -1,29 +1,33 @@
 <div class="titulo">Operações</div>
 
 <?php
-
 $dados1 = [
     "nome" => "Jose",
     "idade" => 28
 ];
 
 $dados2 = [
-    "nome" => "Maria",  //na soma de dadosCompletos, o que vai valer é o mais a esquerda
     "naturalidade" => "Fortaleza"
 ];
 
 $dados2["endereço"] = "Rua A";
 
 $dadosCompletos = $dados1 + $dados2;
-echo '<br>' . print_r($dadosCompletos);
+print_r($dadosCompletos);
+
 echo '<br>' . is_array($dadosCompletos);
 echo '<br>' . count($dadosCompletos);
+
 echo '<br>';
 $indice = array_rand($dadosCompletos);
 echo "$indice = $dadosCompletos[$indice]";
 echo '<br>';
 echo "{$dadosCompletos['idade']}";
 echo " ${dadosCompletos['idade']}";
+
+unset($dadosCompletos["nome"]);
+echo '<br>';
+print_r($dadosCompletos);
 
 unset($dadosCompletos);
 echo '<br>';
@@ -40,6 +44,6 @@ $decimais = array_merge($pares, $impares);
 echo '<br>';
 print_r($decimais);
 
-sort($decimais);;
+sort($decimais);
 echo '<br>';
 print_r($decimais);
